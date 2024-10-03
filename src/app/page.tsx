@@ -92,7 +92,7 @@ export default function Home() {
               onClick={copyToClipboard}
               className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-colors"
             >
-              {isCopied ? "Copié !" : "Copier"}
+              {isCopied ? "Copied !" : "Copy"}
             </button>
           </div>
           <p className="p-4 bg-gray-100 rounded">{transcription}</p>
